@@ -18,7 +18,7 @@ const Card = ({item}) => {
                 <h3 className='card__title'>{item.title}</h3>
                 <div className='card__desc'>
                     <p className='card__weight'>Вес: {item.weight}гр</p>
-                    <p className='card__quantity'>Кол кусочков: {item.quantity}</p>
+                    <p className='card__quantity'>Кол кусочко: {item.quantity}</p>
                 </div>        
             </div>  
             
